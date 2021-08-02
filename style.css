@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* 
 * {
     font-family: "Poppins";
+} */
+/* Made for second styling */
+h1 {
+    font-family: 'Rock Salt', cursive;
 }
-
 html, body {
     background: url("./images/background.jpg") center center no-repeat;
     height: 100%;
@@ -95,6 +99,47 @@ align-items: center;
 /* .form-control {
     width: 100%;
 } */
+
+/* This will hold the logo we designed */
+.steel-container {
+    background: url("images/button-texture.jpg") center center no-repeat;
+    height: 170px;
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 2px 2px #000;
+}
+.wood-container {
+    background: url("images/table-texture.jpg") center center no-repeat;
+    background-repeat: round;
+    background-position: left;
+    height: 120px;
+    width: 170px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px #000;
+    border-radius: 50%;
+  
+    
+}
+.text {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px #000;
+    font-weight: bold;
+    font-size: 40px;
+}
+.bloody-rose {
+
+}
+.blood-image {
+    width: 200px;
+    height: 200px;
+}
 @media only screen and (min-width: 600px) {
     .hero-icon-item {
         width: 10%;
