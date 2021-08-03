@@ -171,15 +171,15 @@ align-items: center; */
 .nav-link-item {
     color: #FFF;
     font-family: 'Poppins';
-    font-size: 1.4em;
-    padding: 10px;
+    font-size: 30px;
+    padding: 20px;
 }
 
 /* About Styling */
 .about-container {
     display: flex;
-    justify-content: center;
-    height: 500px;
+    justify-content: space-evenly;
+    height: 700px;
 }
 .about-item {
     flex: 1;
@@ -188,9 +188,12 @@ align-items: center; */
     align-items:center;
 }
 .about-text {
+    background-color: rgba(255, 0, 0, 0.65);
     color: #fff;
     font-family: 'Poppins';
     font-size: 35px;
+    padding: 20px;
+    margin-right: 25px;
 }
 
 /* video {
